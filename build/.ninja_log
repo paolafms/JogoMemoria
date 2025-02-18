@@ -2,7 +2,7 @@
 479	732	7614432027213708	CMakeFiles/JogoMemoria.dir/C_/Users/paola/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj	28737fca769a6c02
 417	644	7614432026587955	CMakeFiles/JogoMemoria.dir/C_/Users/paola/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_vreg/vreg.c.obj	251e30cecaf5a9e3
 435	734	7614432026778786	CMakeFiles/JogoMemoria.dir/C_/Users/paola/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_watchdog/watchdog.c.obj	440ebce5ae56fdc4
-10	560	7616193705081757	build.ninja	6b8ed9dd48f84fcf
+10	560	7616241844463251	build.ninja	6b8ed9dd48f84fcf
 29	618	7614432022716032	CMakeFiles/JogoMemoria.dir/lib/ssd1306.c.obj	83908d27db45986c
 455	687	7614432026978792	CMakeFiles/JogoMemoria.dir/C_/Users/paola/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj	b96b88a2367fefd9
 22	66	7614267443737675	ws2812.pio.h	ad6cd1f90dd064ec

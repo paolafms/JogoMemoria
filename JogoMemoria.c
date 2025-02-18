@@ -18,7 +18,7 @@
 #define BUTTON_B_PIN 6          // Botão B (GPIO 6)
 #define GREEN_LED_PIN 11        // LED verde (GPIO 11)
 #define RED_LED_PIN 13          // LED vermelho (GPIO 13)
-#define BUZZER_PIN 21            // Pino do buzzer (definido como GPIO 8)
+#define BUZZER_PIN 21            // Pino do Buzzer
 #define SEQUENCE_MAX_LENGTH 10  // Comprimento máximo da sequência
 #define DELAY_BETWEEN_STEPS 500 // Delay entre os passos da sequência
 
@@ -56,7 +56,7 @@ void tocarSom(int frequencia, int duracao_ms) {
     // Configura a frequência do PWM
     pwm_set_clkdiv(slice_num, 125.0f); // Define o divisor de clock (ajuste conforme necessário)
     pwm_set_wrap(slice_num, 1000000 / frequencia); // Define o período do PWM com base na frequência
-    pwm_set_chan_level(slice_num, channel_num, 10000 / frequencia); // Duty cycle de 25%
+    pwm_set_chan_level(slice_num, channel_num, 10000 / frequencia); // Duty cycle
 
     pwm_set_enabled(slice_num, true); // Habilita o PWM
     gpio_set_function(BUZZER_PIN, GPIO_FUNC_PWM); // Configura o pino do buzzer para função PWM
@@ -76,8 +76,8 @@ int map_led_index(int x, int y);
 // Função para inicializar o ADC
 void my_adc_init() {
     adc_init();
-    adc_gpio_init(26); // GPIO 26 (Y axis)
-    adc_gpio_init(27); // GPIO 27 (X axis)
+    adc_gpio_init(26); // GPIO 26 (Y)
+    adc_gpio_init(27); // GPIO 27 (X)
 }
 
 // Função para ler o valor do ADC

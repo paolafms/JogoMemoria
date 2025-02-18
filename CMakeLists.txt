@@ -34,20 +34,20 @@ add_executable(JogoMemoria JogoMemoria.c lib/ssd1306.c)
 
 # Include directories for the project
 target_include_directories(JogoMemoria PRIVATE
-    ${CMAKE_CURRENT_LIST_DIR}/lib  # Adiciona o diretório 'lib' ao caminho de inclusão
+    ${CMAKE_CURRENT_LIST_DIR}/lib
 )
 
-# Adiciona a biblioteca padrão do Raspberry Pi Pico
+# Biblioteca padrão do Raspberry Pi Pico
 target_link_libraries(JogoMemoria
         pico_stdlib
 )
 
-# Adiciona suporte à I2C (hardware/i2c.h)
+# Suporte à I2C (hardware/i2c.h)
 target_link_libraries(JogoMemoria
         hardware_i2c
 )
 
-# Adiciona a biblioteca PIO para WS2812
+# Biblioteca PIO para WS2812
 target_link_libraries(JogoMemoria
     hardware_pio
 )
@@ -56,16 +56,13 @@ target_link_libraries(JogoMemoria
     hardware_adc
 )
 
-# Adiciona suporte ao PWM (hardware/pwm.h)
+# PWM (hardware/pwm.h)
 target_link_libraries(JogoMemoria
     hardware_pwm
 )
 
-# Gere o arquivo header PIO a partir de ws2812.pio
 pico_generate_pio_header(JogoMemoria ${CMAKE_CURRENT_LIST_DIR}/ws2812.pio)
 
-# Inclua o diretório atual para o ws2812.pio.h gerado
 target_include_directories(JogoMemoria PRIVATE ${CMAKE_CURRENT_LIST_DIR})
 
-# Adiciona saídas extras (binários, UF2)
 pico_add_extra_outputs(JogoMemoria)

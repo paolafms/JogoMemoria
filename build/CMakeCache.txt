@@ -120,9 +120,6 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
 //Flags used by the linker during RELWITHDEBINFO builds.
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
-//Enable/Disable output of compile commands during generation.
-CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
-
 //Value Computed by CMake.
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=C:/Users/paola/.vscode/.codigos/C/JogoMemoria/build/CMakeFiles/pkgRedirects
 
@@ -267,15 +264,6 @@ JogoMemoria_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 JogoMemoria_SOURCE_DIR:STATIC=C:/Users/paola/.vscode/.codigos/C/JogoMemoria
 
-//Value Computed by CMake
-LED_Simulator_BINARY_DIR:STATIC=C:/Users/paola/.vscode/.codigos/C/JogoMemoria/build
-
-//Value Computed by CMake
-LED_Simulator_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-LED_Simulator_SOURCE_DIR:STATIC=C:/Users/paola/.vscode/.codigos/C/JogoMemoria
-
 //PICO target board (e.g. pico, pico2)
 PICO_BOARD:STRING=pico_w
 
@@ -339,20 +327,8 @@ PICO_STDIO_UART:BOOL=ON
 //Globally enable stdio USB
 PICO_STDIO_USB:BOOL=OFF
 
-//Directory where pioasm has been installed
-PIOASM_INSTALL_DIR:PATH=C:/Users/paola/.vscode/.codigos/C/JogoMemoria/build/pioasm-install
-
 //No help, variable specified on the command line.
 Python3_EXECUTABLE:UNINITIALIZED=C:/Users/paola/.pico-sdk/python/3.12.6/python.exe
-
-//Value Computed by CMake
-pico_game_BINARY_DIR:STATIC=C:/Users/paola/.vscode/.codigos/C/JogoMemoria/build
-
-//Value Computed by CMake
-pico_game_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-pico_game_SOURCE_DIR:STATIC=C:/Users/paola/.vscode/.codigos/C/JogoMemoria
 
 //Value Computed by CMake
 pico_sdk_BINARY_DIR:STATIC=C:/Users/paola/.vscode/.codigos/C/JogoMemoria/build/pico-sdk
@@ -362,12 +338,6 @@ pico_sdk_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 pico_sdk_SOURCE_DIR:STATIC=C:/Users/paola/.pico-sdk/sdk/2.1.0
-
-//The directory containing a CMake configuration file for picotool.
-picotool_DIR:PATH=C:/Users/paola/.pico-sdk/picotool/2.1.0/picotool
-
-//The directory containing a CMake configuration file for pioasm.
-pioasm_DIR:PATH=pioasm_DIR-NOTFOUND
 
 
 ########################
@@ -459,8 +429,6 @@ CMAKE_EXE_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_EXE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_EXPORT_COMPILE_COMMANDS
-CMAKE_EXPORT_COMPILE_COMMANDS-ADVANCED:INTERNAL=1
 //Name of external makefile project generator.
 CMAKE_EXTRA_GENERATOR:INTERNAL=
 //Name of generator.
