@@ -1,4 +1,4 @@
-# Link do vídeo:
+# Link do vídeo: https://drive.google.com/file/d/1Xees4GVBHj8AzD1_b3fXkMrRGISFkpU4/view?usp=sharing
 
 # Projeto de Jogo de Memória com Matriz de LEDs e Joystick
 Este projeto é um jogo de memória desenvolvido para a plataforma Raspberry Pi Pico W, utilizando uma matriz de LEDs WS2812, um joystick analógico, um display OLED SSD1306, e botões para interação. O objetivo do jogo é memorizar e repetir uma sequência de LEDs que é exibida na matriz.
